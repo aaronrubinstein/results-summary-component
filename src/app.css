@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+body {
+    /* color palette */
+    --body-bg: hsla(220, 100%, 96%, 1);
+    --text-primary: hsla(223, 30%, 27%, 1);
+    --text-secondary: hsla(241, 100%, 89%, 1);
+    --red: hsla(0, 100%, 67%, 1);
+    --light-red: hsla(0, 100%, 67%, 0.05);
+    --yellow: hsla(40, 100%, 56%, 1);
+    --light-yellow: hsla(40, 100%, 56%, 0.05);
+    --green: hsla(166, 100%, 37%, 1);
+    --light-green: hsla(166, 100%, 37%, 0.05);
+    --blue: hsla(234, 85%, 45%, 1);
+    --light-blue: hsla(234, 85%, 45%, 0.05);
+    --primary-gradient: linear-gradient(180deg, hsla(252, 100%, 67%, 1) 0%, hsla(241, 81%, 54%, 1) 100%);
+    --secondary-gradient: linear-gradient(180deg, hsla(256, 71%, 46%, 1) 0%, hsla(241, 71%, 46%, 0) 100%);
+     
+    min-height: 100vh;
+    background-color: var(--body-bg);
+}
