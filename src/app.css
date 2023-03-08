@@ -39,4 +39,7 @@ body {
      
     min-height: 100vh;
     background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
