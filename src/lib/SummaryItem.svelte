@@ -68,4 +68,16 @@
     .out-of {
         opacity: 0.5;
     }
+
+    @media (max-width: 700px) {
+        .category {
+            font-size: 16px;
+        }
+
+        .score, .out-of {
+            font-size: 16px;
+        }
+
+    }
+
 </style>

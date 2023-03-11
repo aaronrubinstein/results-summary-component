@@ -44,9 +44,28 @@
         font-weight: 700;
         color: #FFF;
         cursor: pointer;
+        margin-bottom: 30px;
     }
 
     button:hover {
         background: var(--primary-gradient);
     }
+
+    @media (max-width: 700px) {
+        .card {
+            padding: 0px 30px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+
+        .items {
+            margin-bottom: 24px;
+        }
+
+    }
+
 </style>
