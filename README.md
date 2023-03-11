@@ -15,4 +15,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 **Mobile**
 
-<img src="./solution/mobile.png" height=70% width=70%>
+<img src="./solution/mobile.png" height=30% width=30%>
