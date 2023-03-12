@@ -30,7 +30,6 @@
             flex-direction: column;
             margin: 0;
             border-radius: 0;
-            height: 100vh;
         }
 
     }

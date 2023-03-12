@@ -18,7 +18,6 @@
         display: flex;
         flex-direction: column;
         padding: 0px 40px;
-        margin-bottom: 24px;
     }
 
     h3 {
@@ -45,6 +44,7 @@
         font-weight: 700;
         color: #FFF;
         cursor: pointer;
+        margin-bottom: 30px;
     }
 
     button:hover {
