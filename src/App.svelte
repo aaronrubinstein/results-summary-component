@@ -19,6 +19,7 @@
         grid-template: none / 1fr 1fr;
         max-width: 736px;
         border-radius: 32px;
+        background-color: #FFF;
         box-shadow: 0px 30px 60px 0px hsla(224, 82%, 58%, 0.15);
         margin: 0 24px;
     }

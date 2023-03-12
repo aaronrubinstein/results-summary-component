@@ -5,7 +5,7 @@
 </script>
 
 <div class="card {category.toLowerCase()}">
-    <img src={icon} alt="{category} icon">
+    <img src={`images/${icon}`} alt="{category} icon">
     <span class="category">{category}</span>
     <div class="score-container">
         <span class="score">{score}</span>
